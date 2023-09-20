@@ -1,0 +1,53 @@
+@import "@/app/colors.scss";
+
+.text {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  @extend .text;
+  font-size: 3em;
+  margin: 1.2em auto 0.25em;
+}
+
+.subtitle {
+  @extend .text;
+  font-size: 2.5em;
+}
+
+.descriptionContainer {
+  background-color: white;
+  border-radius: 0.2em;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  margin: 3em 0;
+  padding: 1.5em 2em;
+}
+
+.description {
+  align-self: center;
+  width: 70%;
+}
+
+.importantText {
+  font-weight: bold;
+}
+
+.contact {
+  align-self: center;
+  flex-grow: 1;
+  margin-left: 5em;
+}
+
+.contactInformation {
+  margin-bottom: 1em;
+}
+
+.linkBdxio {
+  color: $linkColor;
+  font-weight: bold;
+  text-decoration: none;
+}

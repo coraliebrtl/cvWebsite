@@ -1,0 +1,15 @@
+.container {
+  background-attachment: fixed;
+  background-image: url("../../public/images/moutain-background.jpg"); // todo stocker img
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 10em;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
